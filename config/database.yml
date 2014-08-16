@@ -5,9 +5,9 @@
 #   gem 'sqlite3'
 #
 development:
-  adapter: postgresql
+  adapter: mysql2
   database: spree_store_d
-  username: admin
-  password: admin
+  username: root
+  password: farm
   pool: 5
   timeout: 5000
