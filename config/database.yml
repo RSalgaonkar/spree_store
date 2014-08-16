@@ -11,3 +11,19 @@ development:
   password: admin
   pool: 5
   timeout: 5000
+
+test:
+  adapter: postgresql
+  database: spree_store_t
+  username: admin
+  password: admin
+  pool: 5
+  timeout: 5000
+
+production:
+  adapter: postgresql
+  database: spree_store_p
+  username: admin
+  password: admin
+  pool: 5
+  timeout: 5000
