@@ -1,0 +1,4 @@
+<li id="shipping_specs_unit_field" data-hook="admin_product_form_unit" class="field alpha two columns">
+  <%= f.label :unit, Spree.t(:unit) %>
+  <%= f.select :unit, options_for_select(["Kg", "Gram", "Pounds"]), :size => 4, :class => 'select2'%>
+</li>
